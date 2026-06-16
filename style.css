@@ -272,3 +272,28 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.publication-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  margin: 25px 0 35px;
+}
+
+.publication-metrics div {
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid #00796b;
+}
+
+.publication-metrics strong {
+  display: block;
+  font-size: 34px;
+  color: #00796b;
+}
+
+.publication-metrics span {
+  font-weight: 700;
+}
